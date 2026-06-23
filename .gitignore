@@ -43,3 +43,19 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+# Flutter / iOS build files
+build/
+ios/build/
+.dart_tool/
+.pub/
+.packages
+
+# Xcode / SwiftPM
+ios/Pods/
+ios/DerivedData/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/SourcePackages/
