@@ -59,3 +59,33 @@ ios/.symlinks/
 ios/Flutter/Flutter.framework
 ios/Flutter/Flutter.podspec
 ios/SourcePackages/
+
+
+
+# Flutter
+build/
+.dart_tool/
+.packages
+
+# iOS generated
+ios/build/
+ios/Pods/
+ios/DerivedData/
+ios/SourcePackages/
+
+
+
+# Flutter
+build/
+.dart_tool/
+
+# iOS
+ios/build/
+ios/Pods/
+ios/.symlinks/
+ios/SourcePackages/
+ios/DerivedData/
+
+# Firebase / Xcode caches
+*.xcframework
+*.pack
